@@ -22,6 +22,7 @@
 		BBEE3CAF1848FEDA00CAA73A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEE3C971848FED900CAA73A /* UIKit.framework */; };
 		BBEE3CB71848FEDA00CAA73A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBEE3CB51848FEDA00CAA73A /* InfoPlist.strings */; };
 		BBEE3CB91848FEDA00CAA73A /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEE3CB81848FEDA00CAA73A /* ToDoListTests.m */; };
+		BBF26EF21861B606008D9686 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF26EF11861B606008D9686 /* XYZToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		BBEE3CB41848FEDA00CAA73A /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		BBEE3CB61848FEDA00CAA73A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBEE3CB81848FEDA00CAA73A /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		BBF26EF01861B606008D9686 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		BBF26EF11861B606008D9686 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				BBEE3CA21848FED900CAA73A /* AppDelegate.h */,
 				BBEE3CA31848FED900CAA73A /* AppDelegate.m */,
 				BBD2131A184F583200613197 /* Main.storyboard */,
+				BBF26EF01861B606008D9686 /* XYZToDoItem.h */,
+				BBF26EF11861B606008D9686 /* XYZToDoItem.m */,
 				BB06E9AA1860A65B005ABA94 /* XYZToDoListViewController.h */,
 				BB06E9AB1860A65B005ABA94 /* XYZToDoListViewController.m */,
 				BBEE3CA51848FED900CAA73A /* Images.xcassets */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBEE3CA41848FED900CAA73A /* AppDelegate.m in Sources */,
+				BBF26EF21861B606008D9686 /* XYZToDoItem.m in Sources */,
 				BBEE3CA01848FED900CAA73A /* main.m in Sources */,
 				BB06E9AC1860A65B005ABA94 /* XYZToDoListViewController.m in Sources */,
 				BB06E9A91860A52C005ABA94 /* XYZAddToDoItemViewController.m in Sources */,
